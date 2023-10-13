@@ -40,7 +40,7 @@ const ProductTable = ({ products }) => {
   );
 
   return (
-    <table {...getTableProps()} className="w-full">
+    <table {...getTableProps()} className=" w-full">
       <thead>
         {headerGroups.map((headerGroup) => (
           <tr {...headerGroup.getHeaderGroupProps()} className="bg-blue-200">
